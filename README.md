@@ -163,7 +163,7 @@ except for my.example.com and my2.example.com (which may be unlimited), use:
 ```
 export PORT=8080
 export CORSANYWHERE_BLACKLIST=https://abuse.example.com,http://abuse.example.com
-export CORSANYWHERE_RATELIMIT='50 3 my.example.com my2.example.com'
+export CORSANYWHERE_RATELIMIT='500 3 https://user.rangaenterprises.co.in https://admin.rangaenterprises.co.in'
 node server.js
 ```
 
